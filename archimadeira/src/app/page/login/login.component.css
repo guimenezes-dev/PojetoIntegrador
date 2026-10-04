@@ -1,0 +1,123 @@
+.fundo-pagina {
+    background-color: var(--cream, #f9f6f0);
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cabecalho {
+    background-color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    width: 100%;
+}
+
+.cabecalho h2 {
+    font-family: 'Playfair Display', serif;
+    color: var(--brown, #3a1d17);
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+
+.caixa-login {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 380px;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.caixa-login h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--brown, #3a1d17);
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.caixa-login p {
+    color: #777777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.campo {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.campo label {
+    display: block;
+    font-weight: 600;
+    color: #444444;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1ccc0;
+    border-radius: 6px;
+    background-color: #faf9f7;
+    color: #333333;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+.campo input:focus {
+    outline: none;
+    border-color: var(--brown, #3a1d17);
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(58, 29, 23, 0.1);
+}
+
+.botao-entrar {
+    background-color: var(--brown, #3a1d17);
+    color: #ffffff;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.botao-entrar:hover {
+    background-color: var(--rust, #b0401e);
+    transform: translateY(-2px);
+}
+
+.botao-entrar:active {
+    transform: translateY(1px);
+}
+
+.rodape-caixa {
+    margin-top: 30px;
+    border-top: 1px solid #eeeeee;
+    padding-top: 20px;
+    font-size: 13px;
+    color: #777777;
+}
+
+.rodape-caixa a {
+    color: var(--rust, #b0401e);
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.rodape-caixa a:hover {
+    color: var(--brown, #3a1d17);
+    text-decoration: underline;
+}

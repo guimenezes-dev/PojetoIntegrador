@@ -1,1 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+    --brown: #3a1d17;
+    --brown-light: #4a2820;
+    --rust: #b0401e;
+    --cream: #f5f2ec;
+    --white: #ffffff;
+    --text: #2b2320;
+    --muted: #7b706b;
+    --border: #e6e0d8;
+    --gold: #e8a317;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--cream);
+    color: var(--text);
+    font-size: 14px;
+}
+
+button,
+input,
+select {
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button:focus-visible,
+input:focus-visible,
+select:focus-visible {
+    outline: 2px solid var(--rust);
+    outline-offset: 2px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root {
+    --bg-page: #F9F6F0;
+    --bg-white: #FFFFFF;
+    --text-main: #4A3B32;
+    --text-light: #8C7B70;
+    --primary-color: #9C5237;
+    --border-color: #E6DFD5;
+    --orange-accent: #E27B45;
+    --footer-bg: #2C1F18;
+    --teal-accent: #009688;
+}
+
+body {
+    background-color: var(--bg-page);
+    color: var(--text-main);
+}
